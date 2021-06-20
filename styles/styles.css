@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, button, input {
+  font-family: -apple-system, Ubuntu, Arial, sans-serif;
+}
+
+*, li {
+  list-style: none;
+}
+
+.heading {
+  margin-top: 7.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.heading .text {
+  font-size: 3.250rem;
+  font-weight: 600;
+}
+
+.heading .wrapper {
+  position: relative;
+}
+
+.heading .wrapper .offset {
+  top: 0;
+  left: 0;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.heading .wrapper .text {
+  white-space: nowrap;
+  color: #e60023;
+}
+
+.grid-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (15.75rem)[7];
+      grid-template-columns: repeat(7, 15.75rem);
+}
+
+.column {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.column:nth-child(1) {
+  margin-top: 0;
+}
+
+.column:nth-child(2) {
+  margin-top: 10rem;
+}
+
+.column:nth-child(3) {
+  margin-top: 20rem;
+}
+
+.column:nth-child(4) {
+  margin-top: 30rem;
+}
+
+.column:nth-child(5) {
+  margin-top: 20rem;
+}
+
+.column:nth-child(6) {
+  margin-top: 10rem;
+}
+
+.column:nth-child(7) {
+  margin-top: 0;
+}
+
+.item {
+  width: 14.75rem;
+  height: 21.875rem;
+  background: #e60023;
+  border-radius: 0.625rem;
+}
+
+.item:not(:first-child) {
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */

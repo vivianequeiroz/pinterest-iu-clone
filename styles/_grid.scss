@@ -1,0 +1,51 @@
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 15.75rem);
+}
+
+.column {
+  width: 100%;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+
+  &:nth-child(1) {
+    margin-top: 0;
+  }
+  &:nth-child(2) {
+    margin-top: 10rem;
+  }
+  &:nth-child(3) {
+    margin-top: 20rem;
+  }
+  &:nth-child(4) {
+    margin-top: 30rem;
+  }
+  &:nth-child(5) {
+    margin-top: 20rem;
+  }
+  &:nth-child(6) {
+    margin-top: 10rem;
+  }
+  &:nth-child(7) {
+    margin-top: 0;
+  }
+}
+
+.item {
+  width: 14.75rem;
+  height: 21.875rem;
+  background: $red;
+  border-radius: 0.625rem; 
+}
+
+.item:not(:first-child) {
+  margin-top: 1rem;
+}
