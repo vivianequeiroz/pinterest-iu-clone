@@ -12,7 +12,7 @@
 
 .column {
   width: 100%;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
 
@@ -43,7 +43,7 @@
   width: 14.75rem;
   height: 21.875rem;
   background: $red;
-  border-radius: 0.625rem; 
+  border-radius: 0.625rem;
 }
 
 .item:not(:first-child) {
