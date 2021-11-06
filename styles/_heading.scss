@@ -1,28 +1,29 @@
 .heading {
   margin-top: 7.5rem;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 
   .text {
-    font-size: 3.25rem;
+    font-size: 3.75rem;
     font-weight: 600;
   }
-
   .wrapper {
     position: relative;
 
     .offset {
+      position: absolute;
       top: 0;
       left: 0;
-      position: absolute;
       transform: translateX(-50%);
     }
-
     .text {
       white-space: nowrap;
       color: $red;
+
+      transition-duration: 1s;
     }
   }
 }
